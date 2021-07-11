@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "myriad";
+    src: url(/font/MYRIADPRO-BOLDCOND.OTF);
+}
+body{/* retirar borda branca da página */
+    margin: 0;
+    font-family: myriad;
+}
+
+header{ /* cabechalho branco */
+    border: 3px red solid;
+    position: relative;
+    display: block;
+    height: 24vh;
+    width: 100vw;
+    background-color: white;
+}
+.logo-cngrafica{/* logo da gráfica, botão home */
+    position: absolute;
+    display: inline;
+    height: 48%;
+    top: 18%;
+    left: 10%;
+}
+.box-social{/* box com os link de redes sociais */
+    border: 3px red solid;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 42%;
+    height: 25%;
+    right: 10%;
+
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}   
+
+.logo-social{
+    position: relative;
+    right: 0;
+
+    height: 100%;
+
+    top: 0;
+    bottom: 0;;
+    margin: auto;
+}
+nav{
+    border: 3px red solid;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 10%;
+    width: 50vw;
+    height: 7vh;
+}
+.menu-item{
+    position: relative;
+    text-decoration: none;
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 16pt;
+    
+    top: 0;
+    bottom: 0;;
+    margin: auto;
+}
+
+
+
+
+
+
+
+/* 
+.fundo-conteudo{
+    position: absolute;
+    display: block;
+    top: 30ch;
+    width: 100vw;
+    height: 50vh;
+    background-color:#8FC74A;
+} */
