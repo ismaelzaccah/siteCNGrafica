@@ -8,10 +8,10 @@ body{/* retirar borda branca da página */
 }
 
 header{ /* cabechalho branco */
-    border: 3px red solid;
+    /* border: 3px red solid; */
     position: relative;
     display: block;
-    height: 24vh;
+    height: 26vh;
     width: 100vw;
     background-color: white;
 }
@@ -23,14 +23,14 @@ header{ /* cabechalho branco */
     left: 10%;
 }
 .box-social{/* box com os link de redes sociais */
-    border: 3px red solid;
+    /* border: 3px red solid; */
     position: absolute;
     display: flex;
     justify-content: space-between;
     width: 42%;
     height: 25%;
+    
     right: 10%;
-
     top: 0;
     bottom: 0;
     margin: auto;
@@ -46,39 +46,30 @@ header{ /* cabechalho branco */
     bottom: 0;;
     margin: auto;
 }
-nav{
-    border: 3px red solid;
+.menu{
+    /* border: 3px red solid; */
     position: relative;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     left: 10%;
     width: 50vw;
-    height: 7vh;
+    height: 6vh;
 }
-.menu-item{
-    position: relative;
+.menu-item{ /* itens SERVIÇOS,CONTATO,COMO CHEGAR */
     text-decoration: none;
-    color: #666666;
+    color-interpolation-filters: #666666;
     text-transform: uppercase;
     font-size: 16pt;
-    
+        
     top: 0;
-    bottom: 0;;
+    bottom: 0;
     margin: auto;
 }
-
-
-
-
-
-
-
-/* 
 .fundo-conteudo{
-    position: absolute;
+    position: relative;
     display: block;
-    top: 30ch;
     width: 100vw;
     height: 50vh;
     background-color:#8FC74A;
-} */
+}
