@@ -90,12 +90,11 @@ footer{ /* rodapé da página, igual pra todas */
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 100vw;
     height: 52vh;
     background-color:#8FC74A;
 }
-
 .brindes-novo{ /* Escritas do Brindes NOVO */
     height: 90%;
     position: absolute;
@@ -108,23 +107,24 @@ footer{ /* rodapé da página, igual pra todas */
     bottom: 0;
     right: 20%;
 }
-.botao-download{ /* Botão download dos Catálogos */
+.botao{ /* Botão download dos Catálogos */
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-between;         
     width: 24%;
+    min-width: 200px;
     height: 17%;
-    min-height: 17%;
+    min-height: 50px;
     background-color: rgba(255, 255, 255, 0.30);
 }
-.botao-download img{/* Logo do botão de Download  */
+.botao img{/* Logo do botão de Download  */
     height: 75%;
     display: block;
     position: absolute;
     left: 10%;
 }
-.botao-download p{ /* Texto do botão de Download  */
+.botao p{ /* Texto do botão de Download  */
     position: absolute;
     display: block;
     text-decoration: none;
@@ -133,5 +133,35 @@ footer{ /* rodapé da página, igual pra todas */
     color: white;
     left: 30%;
     right: 10%;
-    
+}
+.box-contato{ /* Box interior da página contatos */
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+
+    height: 95%;
+    width: 80%;
+    background-color: #7ABA2C;
+
+}
+.botao-contato{ /* Botões da página contatos */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;         
+    width: 24%;
+    min-width: 200px;
+    height: 17%;
+    min-height: 50px;
+    background-color: rgba(255, 255, 255, 0.30);
+}    
+.botao-contato p{ /* Texto do Botões da página contatos  */
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
 }
