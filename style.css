@@ -65,23 +65,27 @@ header{ /* cabechalho branco */
     white-space: nowrap;
 }
 footer{ /* rodapé da página, igual pra todas */
-    position: relative;
+    position: absolute;
     display: flex;
+    justify-content: space-between;
+    align-content: center;
     align-items: center;
+    flex-wrap: wrap;
     height: 16vh;
-    width: 100vw;
+    width: 80vw;
+    left: 10vw; 
+    right: 10vw;
+
 }
 .rodape-cnpj{ /* escritas no rodapá da página */
+    display: block;
     font-family: myriad-cond;
     font-size: 11pt;
     line-height: 120%;
-    position: absolute;
     color: #666666;
-    left: 10%;
 }
 .bandeiras-cartoes{
-    position:absolute;
-    right: 10%;
+    display: block;
 }
 
 /* --------formatação do main conteudo e etc---------- */
@@ -89,8 +93,8 @@ footer{ /* rodapé da página, igual pra todas */
 .fundo-conteudo{ /* quadrado verde com conteúdo */
     position: relative;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
     width: 100vw;
     height: 52vh;
     background-color:#8FC74A;
@@ -134,34 +138,39 @@ footer{ /* rodapé da página, igual pra todas */
     left: 30%;
     right: 10%;
 }
-.box-contato{ /* Box interior da página contatos */
-    position: absolute;
+.box-contato{ /* Box da página contatos */
+    position: relative;
     display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    justify-content: center;
-
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     height: 95%;
-    width: 80%;
+    width: 50%;
     background-color: #7ABA2C;
-
 }
 .botao-contato{ /* Botões da página contatos */
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;         
+    justify-content: center;     
     width: 24%;
     min-width: 200px;
     height: 17%;
     min-height: 50px;
+    margin: 5%;
     background-color: rgba(255, 255, 255, 0.30);
-}    
+}   
 .botao-contato p{ /* Texto do Botões da página contatos  */
     position: absolute;
-    display: block;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
     color: white;
+    
+}
+.box-contato iframe{ /* mapa incorporado da pagina Como Chegar */
+    width: 95%;
+    height: 95%;
+    
 }
