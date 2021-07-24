@@ -1,10 +1,10 @@
 @font-face {
     font-family: "myriad-cond-bold";
-    src: url(/font/MYRIADPRO-BOLDCOND.OTF);
+    src: url(./font/MYRIADPRO-BOLDCOND.OTF);
 }
 @font-face {
     font-family: "myriad-cond";
-    src: url(/font/MYRIADPRO-COND.OTF);
+    src: url(./font/MYRIADPRO-COND.OTF);
 }
 body{/* retirar borda branca da página */
     font-family: myriad-cond-bold;
