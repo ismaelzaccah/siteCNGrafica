@@ -174,3 +174,8 @@ footer{ /* rodapé da página, igual pra todas */
     height: 95%;
     
 }
+.text-quem-somos{ /* Texto da pagina QUEM SOMOS  */
+    padding: 5%;
+    font-size: 20pt;
+    color: white;
+}
